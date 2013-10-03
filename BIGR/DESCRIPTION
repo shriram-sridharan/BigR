@@ -1,0 +1,9 @@
+Package: BIGR
+Version: 0.1
+Date: 2013-09-19
+Title: BIGR - R extended to Large Data 
+Author: Shriram Sridharan
+Maintainer: Shriram Sridharan <shrirams@cs.wisc.edu>
+Depends: R (>= 3.0.1), methods
+Description: A package that enables R to process large data.
+License: LGPL (version 2 or later)

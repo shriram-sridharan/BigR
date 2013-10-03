@@ -1,0 +1,7 @@
+# Specifies the dynamic library to be loaded and functions to be exported
+# Author: Shriram Sridharan
+
+useDynLib(BIGR)
+
+# methods for new big R
+export(show_bigrmatrix, matrix.bigr, scalarmatmul_bigr, matrixmult_bigr)
