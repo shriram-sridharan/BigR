@@ -1,8 +1,8 @@
 import sys
 
 file = open("testR.R", "w")
-file.write('A <- matrix(scan("'+sys.argv[3]+'", n = ' + sys.argv[1] + '*' + sys.argv[2] + '),' + sys.argv[1] + ',' + sys.argv[2] + ')\n')
-file.write('B <- matrix(scan("'+sys.argv[3]+'", n = ' + sys.argv[1] + '*' + sys.argv[2] + '),' + sys.argv[1] + ',' + sys.argv[2] + ')')
+file.write('A <- matrix(scan("'+sys.argv[3]+'", n = ' + sys.argv[1] + '*' + sys.argv[2] + '),' + sys.argv[1] + ',' + sys.argv[2] + ', byrow=1)\n')
+file.write('B <- matrix(scan("'+sys.argv[3]+'", n = ' + sys.argv[1] + '*' + sys.argv[2] + '),' + sys.argv[1] + ',' + sys.argv[2] + ', byrow=1)')
 file.write('\nC <- A %*% B')
 file.close()
 

@@ -1,3 +1,2 @@
-rm -rf /home/shriram/Desktop/R-workspace/BIGR/src/*.c
-rm -rf /home/shriram/Desktop/R-workspace/BIGR/src/*.cpp
+rm -rf /home/shriram/Desktop/R-workspace/BIGR/src/*.*
 cp /home/shriram/Desktop/R-workspace/eclipse-workspace/BigR/*.* /home/shriram/Desktop/R-workspace/BIGR/src/
